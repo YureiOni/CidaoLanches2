@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CidaoLanches2.Views.PaginaInicial"
+             Title="CidaoLanches">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <Label Text="Tela Inicial" FontSize="45" HorizontalOptions="Center" VerticalOptions="Start"/>
+            <Button Text="Vendas" Clicked="Vendas" CornerRadius="35" FontSize="30" Padding="30" Margin=" 10"/>
+            <Button Text="Cadastrar Item" Clicked="CadastroItem" CornerRadius="35" FontSize="30" Padding="30" Margin="10"/>
+            <Button Text="Estoque" Clicked="Estoque" CornerRadius="35" FontSize="30" Padding="30" Margin="10"/>
+            <Button Text="Relatorio" Clicked="Relatorio" CornerRadius="35" FontSize="30" Padding="30" Margin="10"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
