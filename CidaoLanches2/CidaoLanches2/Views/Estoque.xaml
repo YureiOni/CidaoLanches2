@@ -5,7 +5,9 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Estoque" FontSize="45" VerticalOptions="Start" HorizontalOptions="Center"/>
-                
+            <Button Text="Salgados" Clicked="IrSalgados" CornerRadius="35" FontSize="30" Padding="30" Margin="10"/>
+            <Button Text="Doces" Clicked="IrDoces" CornerRadius="35" FontSize="30" Padding="30" Margin="10"/>
+            <Button Text="Bebidas" Clicked="IrBebidas" CornerRadius="35" FontSize="30" Padding="30" Margin="10"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

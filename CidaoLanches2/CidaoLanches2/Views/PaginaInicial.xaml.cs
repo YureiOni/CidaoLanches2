@@ -32,9 +32,9 @@ namespace CidaoLanches2.Views
 
         }
 
-        private void Estoque(object sender, EventArgs e)
+        private async void Estoque(object sender, EventArgs e)
         {
-
+            await Navigation.PushModalAsync(new Estoque());
         }
     }
 }

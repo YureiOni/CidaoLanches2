@@ -16,5 +16,20 @@ namespace CidaoLanches2.Views
         {
             InitializeComponent();
         }
+
+        private async void IrSalgados(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new ArqEstoque.EstoqueSalgado());
+        }
+
+        private void IrDoces(object sender, EventArgs e)
+        {
+
+        }
+
+        private void IrBebidas(object sender, EventArgs e)
+        {
+
+        }
     }
 }
